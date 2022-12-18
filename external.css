@@ -1,0 +1,23 @@
+body{
+    background-color: aliceblue;
+}
+h1{
+    color: brown;
+    
+}
+h1:hover{
+    opacity: 0.5;
+    cursor: pointer;
+}
+li{
+    list-style-type: none;
+    color: blue;
+}
+li:hover{
+    color: darkorange;
+    font-weight: 800;
+    cursor: pointer;
+}
+.list{
+    border: 1px solid rebeccapurple;
+}
