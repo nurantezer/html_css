@@ -1,0 +1,39 @@
+*{
+    box-sizing: border-box;
+    margin: 0.5REM;
+}
+
+.box p{
+    color: red;
+}
+
+.box > p {
+    color: blue;
+}
+
+.box > h1 {
+    color: darkorange;
+}
+
+.box ~ p {
+  color: green;
+}
+
+.box + p {
+  color: fuchsia;
+}
+
+p + h1{
+    text-align: center;
+    margin: 3rem;
+    width: 10rem;
+    height: 10rem;
+    border: 1px solid red;
+    border-radius: 50%;
+    padding-top: 3.3rem;
+}
+
+p +h1:hover{
+    outline: 3px dotted plum;
+    outline-offset: 3px;
+}
