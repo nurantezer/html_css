@@ -1,0 +1,116 @@
+*{
+    font-size: 1rem;
+    margin: 0;
+}
+.container{
+    display: flex;
+    flex-direction:row;
+    background-color: blueviolet;
+    flex-wrap: wrap;
+    justify-content:center;
+    align-items: center;
+    gap:70px 40px ;
+
+}.container div{
+    width: 5rem;
+    height: 5rem;
+    background-color: aqua;
+    margin: 1rem;
+   
+}
+
+.container1{
+    height: 20rem;
+    background-color: aqua;
+    display: flex;
+    justify-content: center;
+    flex-direction: row-reverse;
+    align-items:stretch ;
+    gap: 10px 20px;
+}
+
+.container1 div{
+display: flex;
+align-items: center;
+justify-content: center;
+width: 5rem;
+/* height: 5rem; */
+background-color: blue;
+ 
+}
+
+ul{
+    height: 20rem;
+    background-color: bisque;
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 1rem 2rem;
+    align-content: flex-end ;
+}
+
+ul li{
+background-color: coral;
+width: 4rem;
+height: 4rem;
+}
+
+.container3{
+    background-color: darkorange;
+    display:flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    text-align: center;
+
+}
+
+.container3 div{
+    background-color: darkorchid;
+    width: 5rem;
+    margin: 1rem;
+    flex-grow: 1;
+}
+
+div.grow2{
+   flex-grow: 2;
+}
+
+div.grow3{
+    flex-grow: 3;
+}
+
+div.nogrow{
+    flex-grow: 0;
+}
+
+.container4{
+    display: flex;
+    background-color: cornflowerblue;
+    text-align: center;
+    justify-content: center;
+    flex-wrap: nowrap;
+}
+
+.container4 div{
+    background-color: chartreuse;
+    width: 5rem;
+    margin: 1rem;
+    
+}
+
+div.div1{
+width: 10%;
+}
+
+div.div2{
+width: 20%;
+}
+
+div.div3{
+width: 30%;
+}
+
+div.div4{
+width: 40%;
+} 
