@@ -1,0 +1,65 @@
+*{
+    box-sizing: border-box;
+}
+ body{
+    font-family:Arial, Helvetica, sans-serif;
+    margin: 0;
+ }
+
+ .header{
+    padding: 60px;
+    text-align: center;
+    background-color: aquamarine;
+    color: white;
+ }
+
+ .navbar{
+    display: flex;
+    justify-content: center;
+    background-color: blueviolet;
+ }
+
+ .navbar a{
+    color: white;
+    padding: 14px 20px;
+    text-decoration: none;
+    
+ }
+
+ .navbar a:hover{
+    background-color: chartreuse;
+    color: black;
+ }
+
+ .row{
+    display: flex;
+    flex-wrap: wrap;
+ }
+
+ .side{
+    flex: 30%;
+    background-color: red;
+    padding: 20px;
+ }
+ 
+ /* burası önemli */
+ .main{
+    flex-basis: 70%;
+    background-color: white;
+    padding: 20px;
+    
+ }
+
+ .fakeimg{
+    background-color: cornsilk;
+    text-align: center;
+    width: 100%;
+  
+ }
+ .footer{
+    padding: 20px;
+    text-align: center;
+    background-color: aquamarine;
+ }
+ /* line-heigth farklı div ögeleri için satır yüksekliği ayarlar */
+ /* about me yi sağa fex-basis ile taşıdım. */
