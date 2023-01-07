@@ -1,0 +1,103 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    padding: 2rem;
+}
+
+ul{
+    list-style-type: none;
+    background-color: aqua;
+    padding: 1rem;
+    display: flex;
+    flex-direction: row;
+    gap: 1rem 0.5rem;
+    height: 20rem;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: center;
+    align-items:center;
+    
+    
+}
+
+ul li{
+    background-color: blueviolet;
+    width: 6rem;
+    padding: 0.5rem;
+    color: white;
+}
+
+.container{
+    background-color: chocolate;
+    padding: 1rem;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content: center;
+    text-align: center;
+    font-size: 1.3rem;
+}
+
+.container * {
+    background-color: chartreuse;
+}
+
+.container header{
+    flex-basis: 100%;
+}
+
+.container .left{
+    flex: 2;
+}
+
+.container .rigth{
+    flex-grow: 1;
+}
+
+.container main{
+    flex-grow: 3;
+}
+
+.container footer{
+    flex-basis: 100%;
+    flex: 100%;
+}
+
+.container1{
+    background-color: cornflowerblue;
+    padding: 1rem;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content: center;
+    text-align: center;
+    font-size: 1.3rem;
+}
+
+.container1 *{
+    background-color:bisque ;
+}
+
+.container1 header{
+    width: 100%;
+}
+
+.container1 .left{
+    width: 33.333%;
+}
+
+.container1 .rigth{
+    width: 16.66;
+}
+
+.container1 main{
+    width: 49.98%;
+}
+
+.container1 footer{
+    width: 100%;
+}
